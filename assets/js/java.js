@@ -1,10 +1,10 @@
 
-let comienzo = prompt('hola , te gustaria confirmar si tu signo del sodiaco es el correcto con tu fecha de nacimiento ? preciona (si o No )').toLowerCase()
+let comienzo = prompt('hola , te gustaria confirmar si tu signo del zodiaco es el correcto con tu fecha de nacimiento ? presiona (si o No )').toLowerCase()
 let anoactual = 2022;
 
 if (comienzo === "si") {
 
-    let ano = prompt("que año naciste (poner los 4 digitos)");
+
     let mes = prompt('de que mes (poner solo un digito) ?');
     switch (mes) {
         case "3":
